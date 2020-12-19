@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+
+.App {
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  color: white;
+  background: rgb(4, 20, 56);
+  background: linear-gradient(
+    180deg,
+    rgba(4, 20, 56, 1) 0%,
+    rgba(194, 109, 255, 1) 100%
+  );
+}
+
+.navigation {
+  /* max-width: 45%; */
+  margin: auto;
+}
+
+.hero-text {
+  /* padding-left: 90px; */
+  text-align: center;
+}
+
+.genreSection {
+  font-size: 1rem;
+  /* padding: 10px; */
+  background-color: inherit;
+  color: inherit;
+  max-width: 190px;
+  width: 40%;
+  height: 15vh;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 15px;
+}
+
+.genre-banner {
+  width: 90%;
+  margin: auto;
+  /* margin-right: 50px; */
+  /* text-align: center; */
+}
+
+.songList {
+  margin-top: 2rem;
+}
+
+.songList li {
+  display: inline;
+  list-style: none;
+}
+
+.songData {
+  background-color: #e5e7eb;
+  color: #1d4350;
+  font-family: "Merienda", cursive;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border: 1px solid gray;
+  width: 50%;
+  /* font-size: 20px; */
+  border-radius: 0.5rem;
+  margin: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 15px;
+}
+
+.songData img {
+  width: 20%;
+  height: 80px;
+  border-radius: 0.5rem;
+  float: left;
+}
+
+hr {
+  width: 30%;
+}
+
+footer img {
+  margin: 1rem;
+  margin-bottom: -0.6rem;
+}
+
+@media (max-width: 720px) {
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  .genre-banner {
+    margin: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  .songData img {
+    height: 110px;
+  }
+}
